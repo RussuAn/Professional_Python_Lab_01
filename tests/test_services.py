@@ -1,5 +1,3 @@
-"""Перевірка операцій варіанта 1 та граничних випадків."""
-
 import pytest
 
 from student_manager.models import Student

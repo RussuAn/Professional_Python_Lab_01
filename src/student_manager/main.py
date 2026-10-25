@@ -1,5 +1,3 @@
-"""Консольне меню системи обліку студентів."""
-
 from student_manager.models import Student
 from student_manager.services import (
     add_student,

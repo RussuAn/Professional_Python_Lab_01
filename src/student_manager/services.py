@@ -1,5 +1,3 @@
-"""Операції зі списком студентів без консольного введення та виведення."""
-
 from student_manager.models import Student
 
 

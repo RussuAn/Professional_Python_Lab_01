@@ -1,5 +1,3 @@
-"""Модель студента та перевірка її полів."""
-
 from dataclasses import dataclass
 from math import isfinite
 
