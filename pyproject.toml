@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "student-manager"
+version = "0.1.0"
+description = "Console student register for laboratory work 1"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "Руссу Анастасія"}]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+
+[project.scripts]
+student-manager = "student_manager.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
